@@ -19,7 +19,7 @@ public class select_vehicle extends AppCompatActivity {
         setContentView(R.layout.activity_select_vehicle);
 
 
-        //navigation drawer
+        //Navigation Drawer
         NavigationView mnavigationView =  findViewById(R.id.nav);
         DrawerLayout1 = findViewById(R.id.drawer);
         mnavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
