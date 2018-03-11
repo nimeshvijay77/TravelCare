@@ -38,14 +38,14 @@
             android:text="@string/addVehicle" />
 
         <Button
-            android:layout_width="150dp"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/push_button_addvehicle"
             android:layout_margin="20dp"
-            android:textSize="14sp"
             android:background="@drawable/rectamgular_round_corner_button"
             android:text="@string/startLocation"
-            android:id="@+id/button" />
+            android:textSize="19sp" />
 
         <Button
             android:id="@+id/button_select_vehicle"
@@ -64,22 +64,10 @@
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/button_select_vehicle"
             android:layout_alignBottom="@+id/button_select_vehicle"
-            android:layout_alignStart="@+id/button2"
+            android:layout_alignEnd="@+id/button"
             android:background="@drawable/rectamgular_round_corner_button"
             android:text="@string/mywallet"
             android:textSize="14sp" />
-
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/button"
-            android:layout_alignBottom="@+id/button"
-            android:layout_marginStart="7dp"
-            android:layout_toEndOf="@+id/button"
-            android:background="@drawable/rectamgular_round_corner_button"
-            android:text="@string/destination"
-            android:textSize="14sp"
-            android:id="@+id/button2" />
 
         <EditText
             android:id="@+id/fuelLevel_text"
